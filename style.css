@@ -1,0 +1,184 @@
+    *{
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Helvetica", Helvetica-FF, Arial, Tahoma, sans-serif;
+    }
+
+    .nav-fixed{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .space{
+        width: 90%;
+        margin: 60px auto auto auto;
+        background-color: white;
+    }
+
+    .brand{
+        width: 100%;
+        height: 100px;
+        margin: 20px;
+        background-color: white;
+        padding: 20px 0 20px 0;
+    }
+
+    .nav{
+        width: 100%;
+        padding: 15px 0;
+        background: linear-gradient(to right, #21409a 50%, #007cbd 100%);
+        border-radius: 5px;
+    }
+    
+    .nav li{
+        display: inline;
+        margin-right: 24px;
+    }
+
+    .nav li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .nav-title{
+        width: 100%;
+        padding: 15px 0;
+        background: #f0f0f0;
+        border-radius: 5px;
+    }
+
+    .nav-title li{
+        display: inline;
+        margin-right: 22px;
+    }
+
+    .nav-title li a{
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    main{
+        padding: 15px 66px;
+    }
+
+    .konten-satu{
+        width: 100%;
+        height: 200px;
+        background-color: white;
+    }
+
+    .konten-satu .child{
+        float: left;
+        width: 18%;   
+        height: 100%;
+        background-color: white;
+        margin-right: 20px;
+    }
+
+    .child img{
+        width: 100%;   
+        border-radius: 5px;
+    }
+
+    .child p{
+        color: black;
+        font-weight: bold;
+    }
+
+    .kontent-kedua{
+        width: 100%;   
+        height: 400px;
+        /* background-color: tomato; */
+    }
+
+    .kontent-kedua .left{
+        float: left;
+        width: 60%;
+        height: 100%;
+        /* background-color: turquoise; */
+
+    }
+
+    .kontent-kedua .left .img{
+        height: 74%;
+        background-image: url('mu-ronaldo.jpeg');   
+        border-radius: 10px 10px 0 0;
+        box-shadow: rgba(0, 0, 0, 5) 0px -50px 36px -28px inset;
+    }
+
+    .kontent-kedua .left .img h2{
+        color: white;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 23px;
+    }
+
+    .kontent-kedua .left .img p{
+        color: white;
+        position: absolute;
+        margin-top: 260px;
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+
+    .kontent-kedua .left .text{
+        height: 26%;
+        background: linear-gradient(to right, #21409a 50%, #007cbd 100%);
+        padding: 0 12px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .kontent-kedua .left .text .child-text-judul{
+        width: 100%;
+        /* background-color: violet; */
+        height: 35%;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    .kontent-kedua .left .text .child-text-judul h3{
+        padding: 14px 10px;
+        font-size: 15px;
+    }
+
+    .kontent-kedua .left .text .child-sub-judul{
+        width: 100%;
+        height: 65%;
+        /* background-color: turquoise; */
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .kontent-kedua .left .text .child-sub-judul .left-p{
+        float: left;
+        width: 50%;
+        height: 100%;
+        padding: 15px 10px;
+        color: white;
+        /* background-color: tomato; */
+    }
+
+    .kontent-kedua .left .text .child-sub-judul .right-p{
+        float: right;
+        width: 50%;
+        height: 100%;
+        padding: 15px 10px;
+        color: white;
+        /* background-color: tomato; */
+    }
+
+
+
+
+    .kontent-kedua .right{
+        float: right;
+        width: 40%;
+        height: 100%;
+        /* background-color: violet; */
+    }
